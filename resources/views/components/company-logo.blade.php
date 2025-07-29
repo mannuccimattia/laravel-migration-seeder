@@ -7,6 +7,6 @@
     } elseif ($train['company'] === 'Italo') {
         echo "<img src='$italo' alt='italo logo'>";
     } else {
-        echo '<div>N/A</div>';
+        echo $train['company'];
     }
 @endphp
