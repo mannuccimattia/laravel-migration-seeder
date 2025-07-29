@@ -28,8 +28,6 @@
             @yield('content')
         </div>
     </main>
-
-    <footer>Footer</footer>
 </body>
 
 </html>
