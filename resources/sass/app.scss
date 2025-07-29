@@ -6,3 +6,24 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+
+main {
+  font-family: "Bitcount Prop Single", monospace;
+}
+
+.row {
+  flex-wrap: nowrap;
+}
+
+.col-auto {
+  flex-basis: calc(100% / 10);
+}
+
+th {
+  color: #2379fa !important;
+}
+
+td {
+  color: #ffc107 !important;
+}
