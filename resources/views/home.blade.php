@@ -9,7 +9,11 @@
 </head>
 
 <body>
-    hello
+    <ul>
+        @foreach ($trains as $train)
+            <li>{{ $train['id'] }}</li>
+        @endforeach
+    </ul>
 </body>
 
 </html>
