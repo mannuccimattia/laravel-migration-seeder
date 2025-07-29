@@ -15,10 +15,11 @@ return new class extends Migration
             $table->id();
 
             $table->string("company", 50);
+            $table->date("departure_date");
             $table->string("departure_station", 50);
             $table->string("arrival_station", 50);
-            $table->dateTime("departure_time", 0);
-            $table->dateTime("arrival_time");
+            $table->time("departure_time", 0);
+            $table->time("arrival_time", 0);
             $table->integer("train_number");
             $table->smallInteger("total_carriages");
             $table->boolean("on_time");
