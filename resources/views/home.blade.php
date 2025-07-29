@@ -11,7 +11,7 @@
 <body>
     <ul>
         @foreach ($trains as $train)
-            <li>{{ $train['id'] }}</li>
+            <li>{{ $train['id'] }} - DEP {{ $train['departure_time'] }}</li>
         @endforeach
     </ul>
 </body>
