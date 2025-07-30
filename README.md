@@ -34,3 +34,10 @@ Creiamo un Model per i treni ed un relativo Controller per poi mostrare nella ho
 Con un po' di fantasia inventiamo lo stile del nostro tabellone treni! 
 Posso suggerire il font "Share Tech Mono"?
 
+<br>
+<br>
+<br>
+
+# EX - Tabellone Treni (Pt. 2)
+
+Utilizzare un seeder per popolare la tabella trains con dati generati da Faker
